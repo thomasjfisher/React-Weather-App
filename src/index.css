@@ -9,14 +9,14 @@ body {
 }
 
 .app {
-  background-image: url('./img/rains.jpg');
+  background-image: url('./img/cooler.jpg');
   background-size: cover;
   background-position: bottom;
-  transition: 0.4 ease-out;
+  transition: 0.4s ease;
 }
 
 .app.warm {
-  background-image: url('./img/sunny.jpg');
+  background-image: url('./img/warm.jpg');
 }
 
 main {
